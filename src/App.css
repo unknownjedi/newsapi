@@ -32,7 +32,44 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  align-items: center;
+  margin: auto;
+}
+
+.header h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #282c34;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.loader {
+  position: absolute;
+  z-index: 100;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
 }
